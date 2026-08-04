@@ -6,7 +6,7 @@
 <title>Shreya Shah — Therapy for the Quietly Exhausted</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
     --paper: #E7E6DA;
@@ -40,7 +40,7 @@
   a{ color: inherit; }
 
   .eyebrow{
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 0.72rem;
     letter-spacing: 0.16em;
     text-transform: uppercase;
@@ -48,13 +48,13 @@
   }
 
   h1, h2, h3{
-    font-family: 'Fraunces', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
     margin: 0;
     color: var(--ink);
   }
 
-  .italic{ font-style: italic; font-weight: 400; }
+  .italic{ font-style: normal; color: var(--rose-deep); }
 
   p{ margin: 0; }
 
@@ -82,17 +82,17 @@
     margin: 0 auto;
   }
   .brand{
-    font-family: 'Fraunces', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 1.15rem;
     letter-spacing: 0.01em;
   }
-  .brand em{ font-style: italic; color: var(--rose-deep); }
+  .brand em{ font-style: normal; color: var(--rose-deep); }
   .navlinks{
     display:flex;
     gap: 34px;
     list-style: none;
     margin:0; padding:0;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 0.72rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -185,7 +185,7 @@
     100% { transform: scale(0.7); }
   }
   .breath-label{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Inter', sans-serif;
     font-size: 0.72rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -212,7 +212,7 @@
   }
   .photo-caption{
     margin-top: 14px;
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Inter', sans-serif;
     font-size: 0.68rem;
     letter-spacing: 0.06em;
     color: var(--taupe);
@@ -228,7 +228,7 @@
     background: var(--ink);
     color: var(--paper);
     text-decoration:none;
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Inter', sans-serif;
     font-size: 0.78rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -261,8 +261,7 @@
   }
 
   .quote{
-    font-family:'Fraunces', serif;
-    font-style: italic;
+    font-family:'Newsreader', serif;
     font-size: clamp(1.4rem, 2.4vw, 1.9rem);
     line-height: 1.4;
     color: var(--pine);
@@ -293,7 +292,7 @@
     border: 1px solid var(--ink);
     padding: 10px 20px;
     border-radius: 999px;
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Inter', sans-serif;
     font-size: 0.76rem;
     letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -303,13 +302,12 @@
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 36px;
-    border-top: 1px solid var(--line);
-    padding-top: 42px;
+    padding-top: 12px;
   }
   @media(max-width: 780px){ .values{ grid-template-columns: 1fr; } }
   .value-item .eyebrow{ display:block; margin-bottom: 14px; }
   .value-item p{
-    font-family:'Fraunces', serif;
+    font-family:'Newsreader', serif;
     font-size: 1.28rem;
     line-height: 1.42;
     color: var(--ink);
@@ -334,7 +332,7 @@
     flex-direction: column;
   }
   .quote-mark{
-    font-family:'Fraunces', serif;
+    font-family:'Cormorant Garamond', serif;
     font-size: 3.2rem;
     line-height: 1;
     color: var(--rose);
@@ -342,20 +340,12 @@
     margin-bottom: 6px;
   }
   .t-quote{
-    font-family:'Fraunces', serif;
-    font-style: italic;
+    font-family:'Newsreader', serif;
     font-size: 1.14rem;
     line-height: 1.5;
     color: var(--ink);
     flex: 1;
-    margin-bottom: 22px;
-  }
-  .t-tag{
-    font-family:'IBM Plex Mono', monospace;
-    font-size: 0.68rem;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--taupe);
+    margin-bottom: 0;
   }
 
   /* CREDENTIALS / TIMELINE */
@@ -377,14 +367,14 @@
   }
   .timeline li:first-child{ padding-top: 0; }
   .timeline .yr{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Inter', sans-serif;
     font-size: 0.76rem;
     color: var(--taupe);
     letter-spacing: 0.02em;
     padding-top: 4px;
   }
   .timeline h4{
-    font-family:'Fraunces', serif;
+    font-family:'Cormorant Garamond', serif;
     font-weight: 500;
     font-size: 1.08rem;
     margin: 0 0 6px;
@@ -393,7 +383,7 @@
   .badge-now{
     display:inline-block;
     margin-left: 10px;
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Inter', sans-serif;
     font-size: 0.62rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -416,14 +406,14 @@
     padding-left: 16px;
   }
   .stat .num{
-    font-family:'Fraunces', serif;
+    font-family:'Cormorant Garamond', serif;
     font-size: 2.1rem;
     color: var(--rose-deep);
     display:block;
     line-height: 1;
   }
   .stat .lbl{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Inter', sans-serif;
     font-size: 0.68rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -439,7 +429,7 @@
     gap: 10px 14px;
   }
   .expertise-list span{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Inter', sans-serif;
     font-size: 0.7rem;
     letter-spacing: 0.03em;
     color: var(--ink-soft);
@@ -509,7 +499,7 @@
     justify-content:center;
     gap: 36px;
     flex-wrap:wrap;
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Inter', sans-serif;
     font-size: 0.78rem;
     letter-spacing: 0.04em;
   }
@@ -524,7 +514,7 @@
   footer{
     padding: 30px 6vw 40px;
     text-align:center;
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Inter', sans-serif;
     font-size: 0.68rem;
     letter-spacing: 0.04em;
     color: var(--taupe);
@@ -551,7 +541,6 @@
   </nav>
 </header>
 
-<!-- HERO -->
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
@@ -584,7 +573,6 @@
 
 <hr class="divider">
 
-<!-- ABOUT -->
 <section id="about">
   <div class="wrap about-solo">
     <div class="reveal">
@@ -600,7 +588,6 @@
 
 <hr class="divider">
 
-<!-- HOLD -->
 <section id="hold">
   <div class="wrap">
     <div class="hold-head reveal">
@@ -634,44 +621,37 @@
 
 <hr class="divider">
 
-<!-- VOICES / TESTIMONIALS -->
 <section id="voices">
   <div class="wrap">
     <div class="hold-head reveal">
-      <span class="eyebrow">In their own words</span>
-      <h2 style="margin-top:14px;">What clients carry out of the room.</h2>
+      <span class="eyebrow">What they left with</span>
+      <p class="contact-sub" style="margin: 14px 0 0;">Reflections from people who trusted the process, shared with permission.</p>
     </div>
 
     <div class="testimonial-grid">
       <div class="testimonial-card reveal">
         <span class="quote-mark" aria-hidden="true">"</span>
         <p class="t-quote">You were such a grounding presence for me. It doesn't feel nearly as heavy anymore, and that's because of you.</p>
-        <span class="t-tag">— Client, ongoing therapy</span>
       </div>
       <div class="testimonial-card reveal">
         <span class="quote-mark" aria-hidden="true">"</span>
         <p class="t-quote">Everything you said really resonated, with so much clarity. I feel so peaceful, and most of my doubts are cleared.</p>
-        <span class="t-tag">— Client, individual sessions</span>
       </div>
       <div class="testimonial-card reveal">
         <span class="quote-mark" aria-hidden="true">"</span>
         <p class="t-quote">At this point I feel like you know me better than I know myself — and it's helped me get to know myself better too, and be kinder to myself.</p>
-        <span class="t-tag">— Client, 8+ months in practice</span>
       </div>
       <div class="testimonial-card reveal">
         <span class="quote-mark" aria-hidden="true">"</span>
         <p class="t-quote">Even on the days I wasn't very consistent, your support really helped me grow. I feel genuinely grateful to have had you.</p>
-        <span class="t-tag">— Client, trauma &amp; life transitions</span>
       </div>
       <div class="testimonial-card reveal">
         <span class="quote-mark" aria-hidden="true">"</span>
         <p class="t-quote">I've learned to trust a little better in quite a few aspects of my life — a huge achievement for me.</p>
-        <span class="t-tag">— Client, ongoing therapy</span>
       </div>
       <div class="testimonial-card reveal">
         <span class="quote-mark" aria-hidden="true">"</span>
         <p class="t-quote">I feel blessed to have you as my therapist, and I deeply value the safe space you've created for me.</p>
-        <span class="t-tag">— Client, individual sessions</span>
       </div>
     </div>
   </div>
@@ -679,7 +659,6 @@
 
 <hr class="divider">
 
-<!-- CREDENTIALS -->
 <section id="credentials" class="credentials">
   <div class="wrap cred-grid">
     <div class="reveal">
@@ -717,7 +696,7 @@
           <span class="yr">2018–21</span>
           <div>
             <h4>Bachelor's in Psychology</h4>
-            <p>KBP College, Navi Mumbai — 8.48 CGPI, with distinctions in Counselling and Industrial/Organizational Psychology.</p>
+            <p>Modern College, Navi Mumbai.</p>
           </div>
         </li>
       </ul>
@@ -744,7 +723,6 @@
   </div>
 </section>
 
-<!-- CONTACT -->
 <section id="contact" class="contact">
   <div class="wrap">
     <div class="contact-photo-frame reveal">
